@@ -1,4 +1,5 @@
 ﻿using Mondop.Core;
+using Mondop.VisualStudio.Solution.Analyser.Analysers;
 using System;
 
 namespace Mondop.VisualStudio.Solution.Analyser
@@ -36,6 +37,8 @@ namespace Mondop.VisualStudio.Solution.Analyser
 
                 foreach (var analyser in _analysers)
                     analyser.Analyse(solutionProject, result);
+
+                return result;
             }
 
             return null;

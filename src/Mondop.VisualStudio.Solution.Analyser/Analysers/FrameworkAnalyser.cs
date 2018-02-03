@@ -1,7 +1,7 @@
 ﻿using Mondop.Abstractions.Logging;
 using Mondop.Core;
 
-namespace Mondop.VisualStudio.Solution.Analyser
+namespace Mondop.VisualStudio.Solution.Analyser.Analysers
 {
     public class FrameworkAnalyser : IAnalyser
     {

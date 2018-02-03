@@ -1,4 +1,4 @@
-﻿namespace Mondop.VisualStudio.Solution.Analyser
+﻿namespace Mondop.VisualStudio.Solution.Analyser.Analysers
 {
     public interface IAnalyser
     {
