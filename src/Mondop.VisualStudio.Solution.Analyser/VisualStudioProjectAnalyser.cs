@@ -1,4 +1,4 @@
-﻿using Mondop.Core;
+﻿using Mondop.Guard;
 using Mondop.VisualStudio.Solution.Analyser.Analysers;
 using System;
 

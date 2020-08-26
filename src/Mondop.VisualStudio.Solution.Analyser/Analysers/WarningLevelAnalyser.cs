@@ -1,10 +1,5 @@
 ﻿using Mondop.Abstractions.Logging;
-using Mondop.Core;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
+using Mondop.Guard;
 
 namespace Mondop.VisualStudio.Solution.Analyser.Analysers
 {

@@ -1,8 +1,5 @@
 ﻿using Mondop.Abstractions.Logging;
-using Mondop.Core;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using Mondop.Guard;
 
 namespace Mondop.VisualStudio.Solution.Analyser.Analysers
 {

@@ -5,9 +5,11 @@
     <Version>1.0.0-Alpha015</Version>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Mondop.Abstractions" Version="1.0.2" />
-    <PackageReference Include="Mondop.VisualStudio.Solution" Version="1.0.0-ALPHA008" />
-    <PackageReference Include="System.ValueTuple" Version="4.4.0" />
+    <PackageReference Include="Mondop.Abstractions" Version="1.0.4" />
+    <PackageReference Include="System.ValueTuple" Version="4.5.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Mondop.VisualStudio.Solution\Mondop.VisualStudio.Solution.csproj" />
   </ItemGroup>
 
 </Project>
